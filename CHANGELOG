@@ -1,0 +1,17 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+- Add 3/5 general purpose ML models to the main pipeline
+- Avoid using `cd test` to run the test suite 
+- Create Rest API endpoints and document them with Swagger
+- Split tests into unit tests and integration tests
+
+## [0.1.0]
+### Added
+- Add capabilities to support Random Forest with hyper-parameters optimization
+- Prepare numeric and categorical data to be processed with Random Forest
+- Test the main components of the solution
